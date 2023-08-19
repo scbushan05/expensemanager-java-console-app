@@ -25,7 +25,7 @@ public class ExpenseManagerApplication {
             System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            Long expenseId = null;
+            Long expenseId;
 
             switch (choice) {
                 case 1 -> {
